@@ -1,223 +1,226 @@
-/* .carousel-inner{
-    height: 400px;
+body{
+    margin: 0;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+}
+.intro{
+    padding-top: 20px;
+    /* margin-top: 50px; */
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 30px;
+    color: #ffffff;
 }
 
-.item, img{
-    height: 100% !important;
-    width:  100% !important;
-    background-size:contain;
-} */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
- *{
+.list-item{
     padding: 0;
     margin: 0;
     color: white;
     font-family: 'Poppins', sans-serif;
  }
-body{
-    background-color: rgba(131, 129, 129, 0.781);
+.below-svg{
+    margin-top: -15px;
 }
-.navbar{
-   color: white;
-   width: 100%;
-   background-color: #212121;
-   display: flex;
-   flex-direction: row;
-   justify-content:space-around;
-   align-items: center;
-   margin-bottom: 4px;
+.below-svg h1{
+    color: white;
+    height: 100px;
 }
-.logo>img{
-  height: 30px;
-  border-radius: 10px;
-  margin-top: 5px;
-}
-.items{
-   display: flex;
-   flex-direction: row;
-   list-style: none;
-}
-.list-item{
-   text-decoration: none;
-   margin: 0 25px;
-   padding: 4px 2px;
-}
-.active{
-   color: blue;
-}
- .box {
-    position: relative;
+.firsts{
+    position: sticky;
+    top: 0;
+    /* bottom: -12; */
     width: 100%;
-    height: 60vh; /*Adjust as needed*/
-    overflow: hidden;
+    /* margin-top: 50px; */
+    height: 80vh;
+    background-image: url("./images/front.jfif");
+    background-size: 1350px 560px;
+    /* background-color: rgb(10, 30, 48); */
+    display: flex;
+    align-items: end;
+    z-index: -100;
+    margin-bottom: 500px;
+    /* margin-bottom: 0; */
 }
- .container{
-    position: absolute;
-    z-index: 1;
-    background-image: url("https://d3i3l3kraiqpym.cloudfront.net/wp-content/uploads/2016/02/13105152/water-scarcity.jpg");
-    filter: blur(4px);
-    height: 100%;
-    width: 100%;
+.firsts>h3{
+    font-size: xx-large;
+    font-weight: 100;
+    font-style: italic;
+    color: aliceblue;
+    margin-bottom: 150px;
+}
+
+.thirds>h1{
+    font-size: xx-large;
+    text-align: center;
+    /* border: 1px solid; */
+    padding: 20px;
+    background-color: blue;
+    color: #f0f8ff;
+    margin-top: 50px;
+}
+.thirds{
+    /* margin-top: 0px; */
+    padding-top: 0;
+    background-color: #8fe7e7f1;
+
+}
+.ways>div:nth-child(1){
     display: flex;
-    justify-content: center;
-    transition: 2s ease-in-out;
- }
- .slider{
-    position: relative;
-    background-image: url("https://d3i3l3kraiqpym.cloudfront.net/wp-content/uploads/2016/02/13105152/water-scarcity.jpg");
-    z-index: 2;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 80%;
-    margin: 0 auto;
-    transition: 2s ease-in-out;
- }
- .box-thought{
-   color: rgb(255, 255, 255);
-   font-family:monospace;
-   height: 200px;
-   max-width: 500px;
-   min-width: 300px;
-   position: absolute;
-   top: 50%;
-   margin-left: 10px;
- }
- .content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
- .box{
-   background-color: black;
-   opacity: 0.6;
- }
- .intro{
+    flex-direction: row;
+    max-width: 1000px;
+    justify-content: space-around;
+    border-radius: 20px;
     margin: 10px;
-    font-size:xx-large;
-    font-weight: bold;
- }
- .part{
-    height: 4px;
+    box-shadow: 4px 10px 10px rgb(10, 30, 48);
+    padding: 30px;
+    margin: 40px;
+    background-color: rgba(254, 255, 255, 0.774);
+    align-items: center;
+}
+.all_ways{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ways div{
+    margin-left: 20px;
+}
+.ways img{
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.navbar{
+    color: white;
     width: 100%;
-    background-color: rgb(55, 59, 63);
+    background-color: #212121;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 4px;
  }
- .para{
-   line-height: 25px;
-   margin: 7px;
-   padding: 3px;
+ .logo>img{
+   height: 30px;
+   border-radius: 10px;
+   margin-top: 5px;
  }
- .left{
-   margin: 20px 5px;
+ .items{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
  }
- .heading{
-   font-weight: bold;
-   font-size: large;
+ .list-item{
+    text-decoration: none;
+    margin: 0 25px;
+    padding: 4px 2px;
  }
- .imagecontainer{
-   display: flex;
-   justify-content: center;   
+ .scarcity{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
  }
- .image{
-   margin: 20px;
-   height: 300px;
-   width: 500px;
-   overflow:hidden;
-   -webkit-box-reflect: below 4px linear-gradient(to bottom, transparent, 80%,rgba(0,0,0,0.0), rgba(0,0,0,0.4));
-   border-radius: 20px;
+ .scarcity>img{
+    width: 400px;
+    border-radius: 10px;
+    /* margin: 20px; */
  }
- .para{
-   padding: 70px;
-   /* padding-left: 25px; */
-   border: 1px solid black;
-   border-width: 0px 0px 0px 5px ;
-   margin: 25px 12px 12px 11px;
-   min-width: 70%;
-   max-width: 600px;
-   /* margin-left: 15%; */
-   border-radius: 150px;
-   /* max-height: 120px; */
-   text-align: center;
+ .scarcity div{
+    width: 70%;
  }
-
- .consequences{
-   padding: 30px;
-   background-image: url("https://coldwellsolar.com/wp-content/uploads/2022/10/water-scarcity.jpg");
-   display: flex;
-   flex-direction: column;
-   /* height: 1000px; */
-   background-size: cover;
+ footer{
+    height: 30px;;
+    text-align: center;
+    color: #ffffff;
+    background-color: #212121;
+    padding: 10px;
  }
- .right{
-   align-self: end;
- }
- .left{
-   align-self: start;
- }
- .heading{
-   font-size: xx-large;
-   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   background-color: #2121218a;
-   padding: 20px;
-   text-align: center;
- }
- .different{
-   /* max-width: 300px; */
-   display: flex;
-   justify-content: center;
-
- }
- .different>p{
-   max-width: 600px;
-   min-width: 100px;
-   border: 1px solid black;
-   border-width: 0px 0px 0px 5px;
-   padding: 20px;
-   margin-left: 50px;
-   overflow: auto;
- }
- .starting{
-   margin: 30px;
- }
- .extra{
-  background-color: #21212149;
-  color: aliceblue;
-  box-shadow: 5px 1px 10px black;
- }
- 
 @media(max-width:450px){
 
-  .para{
-    background-image: url("https://coldwellsolar.com/wp-content/uploads/2022/10/water-scarcity.jpg");
-    background-size: 420px 450px;
-    border-radius: 35px;
-    padding: 15px;
-    align-self: center;
-  }
-  .dropdown{
-    display: block;
-  }
-  .dropdown>.logo{
-    margin: 20px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .dropdown>.logo>p{
-    margin-top: 10px;
-  }
-  .dropdown svg{
-    height: 40px;
-    cursor: pointer;
-  }
-  .dropdown>.items{
-    flex-direction: column;
-    margin-bottom: 10px;
+    .ways>div:nth-child(1){
+        flex-direction: column;
+        /* height: 500px; */
+        /* overflow-y: scroll; */
+        /* overflow-x: hidden; */
+        /* border: 1px solid; */
+        padding: 0;
+    }
+    .ways>div>div:nth-child(1){
+        margin: 0;
+        width: 100%;
+    }
+    .ways>div>div:nth-child(2){
+        margin: 20px;
+    }
+    .firsts{
+        background-size: cover;
+    }
+    .ways img{
+        width: 100%;
+        border-radius: 0px;
+        border-bottom: 21px;
+        background-size: cover;
+        border-top-left-radius:20px;
+        border-top-right-radius: 20px;
+    }
+    .para{
+      background-image: url("https://coldwellsolar.com/wp-content/uploads/2022/10/water-scarcity.jpg");
+      background-size: 420px 450px;
+      border-radius: 35px;
+      padding: 15px;
+      align-self: center;
+    }
+    .dropdown{
+      display: block;
+    }
+    .dropdown>.logo{
+      margin: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .dropdown>.logo>p{
+      margin-top: 10px;
+    }
+    .dropdown svg{
+      height: 40px;
+      cursor: pointer;
+    }
+    .dropdown>.items{
+      flex-direction: column;
+      margin-bottom: 10px;
+      
+    }
+    .list-item{
+      margin-bottom: 20px;
+    }
+    .flip{
+      transform: rotateX(180deg);
+    }
+    .firsts{
+        margin-bottom: 700px;
+    }
+    .scarcity{
+        margin-top: 40px;
+        width: 300px;
+        background-color: aliceblue;
+        align-self: center;
+        padding: 10px;
+        border-radius: 20px;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .scarcity>p{
+        padding: 0;
+        text-align: center;
+    }
+    .scarcity>img{
+        width: 100%;
+        
+    }
     
   }
-  .list-item{
-    margin-bottom: 20px;
-  }
-  .flip{
-    transform: rotateX(180deg);
-  }
   
-}
