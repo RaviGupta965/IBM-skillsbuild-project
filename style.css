@@ -139,7 +139,7 @@ body{
     background-color: #212121;
     padding: 10px;
  }
-@media(max-width:450px){
+@media(max-width:700px){
 
     .ways>div:nth-child(1){
         flex-direction: column;
@@ -168,7 +168,7 @@ body{
         border-top-right-radius: 20px;
     }
     .para{
-      background-image: url("https://coldwellsolar.com/wp-content/uploads/2022/10/water-scarcity.jpg");
+      /* background-image: url("https://coldwellsolar.com/wp-content/uploads/2022/10/water-scarcity.jpg"); */
       background-size: 420px 450px;
       border-radius: 35px;
       padding: 15px;
