@@ -1,10 +1,3 @@
-// // $(document).on("keypress", (event) => {
-// //     alert(event.key + " is pressed");
-// // });
-// $(".ways").fadeOut();
-// document.addEventListener("scroll", () => {
-//     $(".ways").fadeIn();
-// });
 window.addEventListener("resize", () => {
     if(window.innerWidth < 700 ) {
         if(!$(".navbar").hasClass("dropdown")) {

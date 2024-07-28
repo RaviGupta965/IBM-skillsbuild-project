@@ -63,6 +63,7 @@ body{
     z-index: 1;
     background-image: url("https://d3i3l3kraiqpym.cloudfront.net/wp-content/uploads/2016/02/13105152/water-scarcity.jpg");
     filter: blur(4px);
+    background-size: cover;
     height: 100%;
     width: 100%;
     display: flex;
@@ -74,6 +75,7 @@ body{
     background-image: url("https://d3i3l3kraiqpym.cloudfront.net/wp-content/uploads/2016/02/13105152/water-scarcity.jpg");
     z-index: 2;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
     width: 80%;
     margin: 0 auto;
@@ -191,7 +193,7 @@ body{
   box-shadow: 5px 1px 10px black;
  }
  
-@media(max-width:450px){
+@media(max-width:700px){
 
   .para{
     background-image: url("https://coldwellsolar.com/wp-content/uploads/2022/10/water-scarcity.jpg");

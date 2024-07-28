@@ -12,32 +12,34 @@
 body{
     background-color: black;
 }
-.navbar{
-   color: white;
-   width: 100%;
-   background-color: #212121;
-   display: flex;
-   flex-direction: row;
-   justify-content:space-around;
-   align-items: center;
-   margin-bottom: 4px;
-}
-.logo>img{
-  height: 30px;
-  border-radius: 10px;
-  margin-top: 5px;
-}
-.items{
-   display: flex;
-   flex-direction: row;
-   list-style: none;
-}
-.list-item{
-   text-decoration: none;
-   margin: 0 25px;
-   padding: 4px 2px;
-}
-
+ .navbar{
+    width: 100%;
+    color: white;
+    background-color: #212121;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 4px;
+ }
+ .logo>img{
+   height: 30px;
+   border-radius: 10px;
+   margin-top: 5px;
+ }
+ .items{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+ }
+ .list-item{
+    text-decoration: none;
+    margin: 0 25px;
+    padding: 4px 2px;
+ }
+ .active{
+   color: blue;
+ }
  .section{
     display: flex;
     flex-direction: row;
@@ -107,7 +109,9 @@ body{
   }
   .teammates{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
   }
 .box{
     height: 100%;
@@ -133,7 +137,6 @@ body{
    border-radius: 10px;
 }
 .pic{
-    background-image: url('https://img.freepik.com/premium-photo/creative-mascot-character-design-modern-digital-art-style-with-vibrant-colors_732449-34637.jpg?w=360');
     margin: 15px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -141,6 +144,30 @@ body{
     border-radius: 5px;
     height: 300px;
     width: 200px;
+}
+.ravi{
+   background-image: url('https://media.licdn.com/dms/image/D4D03AQGe9FUq9RqxSA/profile-displayphoto-shrink_400_400/0/1699788760920?e=1727308800&v=beta&t=t8ehgWS2efFtat4wUWWzkPUM_pc4XseBrgKkB5JjtUM');
+}
+.arpan{
+   background-image: url('https://avatars.githubusercontent.com/u/118041697?v=4');
+}
+.harsh{
+   background-image: url('https://media.licdn.com/dms/image/D4E03AQEMtN1a2wzaqg/profile-displayphoto-shrink_400_400/0/1713170689078?e=1727308800&v=beta&t=Z4eMc_yRivmAwJ_KJTtXbPTJF5lCE9PvjOV3k3s55iw');
+}
+.prateek{
+   background-image: url('https://media.licdn.com/dms/image/D4D03AQFkB47sQtQGBA/profile-displayphoto-shrink_400_400/0/1688627930409?e=1727308800&v=beta&t=ls-ZRj530YdLs9UciUqEZDlV7SX2kjU5W8bYhQtSsUU');
+}
+.raman{
+   background-image: url('https://media.licdn.com/dms/image/D5603AQGMiwMimTfJvA/profile-displayphoto-shrink_400_400/0/1722089085390?e=1727913600&v=beta&t=3GsSlEukVotHfXXGaIt3PTN5-ikWuSt8FJVUXoNccbw');
+}
+.divyam{
+   background-image: url('https://media.licdn.com/dms/image/D5603AQF5Ugvq3ruT0A/profile-displayphoto-shrink_400_400/0/1692910157490?e=1727308800&v=beta&t=a21C2uwNhPZsowk9P20M-syGhF0TSfymnoE3k5iuIZo');
+}
+.sushant{
+   background-image: url('https://media.licdn.com/dms/image/D5603AQFdFYdxstYCvw/profile-displayphoto-shrink_400_400/0/1721400741736?e=1727308800&v=beta&t=ZsEQiBWxW6Rnx-3CMuT2M1xZy0HAHyBWH9WJIS0kxZA');
+}
+.fardeen{
+   background-image: url('https://media.licdn.com/dms/image/D4E03AQER1FlSbWeB4g/profile-displayphoto-shrink_400_400/0/1713153998613?e=1727308800&v=beta&t=8LZSskW0_b6snM6rq5ZXwZtm8QcWiAz_7nnWS4IXjCY');
 }
   .box:hover{
     background : linear-gradient(rgba(96, 93, 93, 0.4),blue);
@@ -155,7 +182,7 @@ body{
     background-color: #212121;
     padding: 10px;
  }
-  @media (max-width:800px) {
+  @media (max-width:700px) {
     .section{
         flex-direction: column;
     }

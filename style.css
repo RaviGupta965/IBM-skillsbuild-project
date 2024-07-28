@@ -19,6 +19,9 @@ body{
     color: white;
     font-family: 'Poppins', sans-serif;
  }
+ .active{
+    color: blue;
+ }
 .below-svg{
     margin-top: -15px;
 }
@@ -34,7 +37,7 @@ body{
     /* margin-top: 50px; */
     height: 80vh;
     background-image: url("./images/front.jfif");
-    background-size: 1350px 560px;
+    background-size: cover;
     /* background-color: rgb(10, 30, 48); */
     display: flex;
     align-items: end;
